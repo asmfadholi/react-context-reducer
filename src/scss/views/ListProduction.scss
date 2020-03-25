@@ -1,0 +1,16 @@
+.list-production {
+    // overflow: auto;
+    white-space: nowrap;
+    .each-card {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 200px;
+        text-align: center;
+        margin: 20px;
+        border-radius: 8px;
+        display: inline-block;
+        background: lighten(blue, 20%);
+        color: white;
+        cursor: pointer;
+    }
+}
